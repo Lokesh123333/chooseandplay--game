@@ -1,0 +1,10 @@
+creating game windom
+pygame.init() intialling pygame
+to create a game window  pygame.diplay.setmodes(())
+hile running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running= False this line of code is use to open and close the game window
+            to change the title of the game display.set_caption
+            to change the image pygame.image.load reminder -: image should be in same folder where the game or the code is present
+            to set that image as the icon of the game pygame.set_icon

@@ -1,0 +1,16 @@
+creating game windom
+pygame.init() intialling pygame
+to create a game window  pygame.diplay.setmodes((w,h))
+hile running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running= False this line of code is use to open and close the game windowif  something that we want to run infinitely or occur presitently then we will write that one in infinte loop
+            to change the title of the game display.set_caption
+            to change the image pygame.image.load reminder -: image should be in same folder where the game or the code is presitently
+
+            to set that image as the icon of the game pygame.set_icon
+pygame.display .update is most important line because it update every setting of the game
+screen.blit(image_name(cor1,cor2)) is to draw image in screen
+to show anything throughout the gamewe will adthat thing inside out for loop
+keydown is used for for pressing and moving left and right key
+keyup is use for releasing the finger from up and down arrow
